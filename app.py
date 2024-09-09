@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-import shii
+from shii_study import shii
 
 shii.no_study_return_text("시이는 아무것도 몰라여..")
 shii.study_return_text("ㅇㅎ")
